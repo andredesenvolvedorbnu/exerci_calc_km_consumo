@@ -1,0 +1,10 @@
+function calcConsumoMed(){
+    let consumoTotal = document.getElementById("idQtdCombus").value; 
+    let distanciaTotal = document.getElementById("idDistancia").value; 
+    
+    let consumoMedio = Number(distanciaTotal)/ Number(consumoTotal);
+    
+    document.getElementById("idOut").value = consumoMedio; 
+
+
+}
