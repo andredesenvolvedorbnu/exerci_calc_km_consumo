@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lista 09 - Exercício 01</h1>
+        </header>
+        <main>
+            <Section>
+                <div>
+                    <fieldset>
+                        <label for="idDistancia">Distância Total: </label>
+                        <input type="number" id="idDistancia" name="nmDistancia" step="0.1">
+                
+                        <br><br>
+                        <label for="idQtdCombus">Qtd Combustível: </label>
+                        <input type="number" id="idQtdCombus" name="nmQtdCombus" step="0.1">
+                    
+                        <br><br>
+                        <label for="idOut">Consumo Médio: </label>
+                        <output id="idOut" name="nmOut">0,0</output> Km/L
+
+                        <br><br>
+                        <input type="Submit" onclick="calcConsumoMed()">
+                        
+                    </fieldset>
+                </div>
+            </Section>        
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
